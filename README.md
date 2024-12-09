@@ -1,6 +1,6 @@
 # DjangoTemplate
-Template for generic Django project
 
+Template for generic Django project
 
 # Local Dev and compose Quickstart:
 
