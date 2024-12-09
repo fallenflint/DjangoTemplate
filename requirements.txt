@@ -1,0 +1,8 @@
+Django
+django-environ
+djangorestframework-simplejwt
+djangorestframework
+django-debug-toolbar
+drf_spectacular
+psycopg2-binary
+django-filter
