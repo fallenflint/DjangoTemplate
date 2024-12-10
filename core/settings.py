@@ -166,3 +166,11 @@ SIMPLE_JWT = {
 #     'VERSION': '1.0.0',
 #     'SERVE_INCLUDE_SCHEMA': False,
 # }
+
+# Redis
+REDIS_URL = os.getenv("REDIS_URL", "redis://redis:6379/0")
+
+# Celery
+# https://docs.celeryproject.org/en/stable/userguide/configuration.html
+CELERY_BROKER_URL = REDIS_URL
+CELERY_RESULT_BACKEND = REDIS_URL
